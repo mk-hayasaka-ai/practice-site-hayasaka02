@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="早坂美優紀の自己紹介ページ。コンテンツディレクター、ねこ好き、浅漬けにハマっています。">
+  <title>はやさかの自己紹介</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#top" aria-label="ページ上部へ">HAYASAKA!</a>
+      <nav class="page-nav" aria-label="ページ内ナビゲーション">
+        <a href="#about">自己紹介</a>
+        <a href="#profile">ステータス</a>
+        <a href="#gallery">ねこ時間</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO, I’M HAYASAKA.</p>
+          <h1>はやさかです。</h1>
+          <p class="hero-text">コンテンツを考えたり、ねこのお世話をしたり、<br class="pc-only">最近は浅漬けを仕込んだりしています。</p>
+          <a class="hero-button" href="#profile">ステータスを見る ↓</a>
+        </div>
+        <div class="hero-bubble" aria-hidden="true">
+          <span class="bubble-big">ねこ</span>
+          <span>と</span>
+          <span>浅漬け</span>
+          <small>があればだいたい平和。</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-inner narrow">
+        <p class="section-label">01 / ABOUT</p>
+        <h2>自己紹介</h2>
+        <div class="speech-card">
+          <span class="cat-mark" aria-hidden="true">🐾</span>
+          <p>はやさかです。</p>
+          <p class="sub-copy">仕事ではコンテンツを整え、家ではねこに生活を整えられています。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section profile" id="profile">
+      <div class="section-inner">
+        <p class="section-label">02 / STATUS</p>
+        <h2>ステータステーブル</h2>
+
+        <div class="status-wrap">
+          <table class="status-table">
+            <caption>早坂美優紀のプロフィール</caption>
+            <tbody>
+              <tr>
+                <th scope="row">名前</th>
+                <td>早坂美優紀</td>
+              </tr>
+              <tr>
+                <th scope="row">職種</th>
+                <td>コンテンツディレクター</td>
+              </tr>
+              <tr>
+                <th scope="row">趣味</th>
+                <td>ねこの世話</td>
+              </tr>
+              <tr>
+                <th scope="row">好きなもの</th>
+                <td>ねこ</td>
+              </tr>
+              <tr>
+                <th scope="row">最近ハマっていること</th>
+                <td>浅漬け</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <aside class="mini-card" aria-label="ひとことプロフィール">
+            <span class="mini-card-icon" aria-hidden="true">😺</span>
+            <p>ねこ成分<br><strong>かなり多め</strong></p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="section-inner">
+        <p class="section-label">03 / CAT LIFE</p>
+        <h2>ねこと過ごす時間</h2>
+        <p class="lead">趣味の「ねこの世話」をテーマに、3つのシーンを並べました。</p>
+
+        <div class="slider" aria-label="ねこと過ごす時間の画像スライダー">
+          <input type="radio" name="slide" id="slide1" checked>
+          <input type="radio" name="slide" id="slide2">
+          <input type="radio" name="slide" id="slide3">
+
+          <div class="slides">
+            <figure class="slide slide-1">
+              <img src="images/cat-brushing.png" alt="部屋でねこをブラッシングしている様子のイラスト">
+              <figcaption>お世話タイム：ブラッシング</figcaption>
+            </figure>
+            <figure class="slide slide-2">
+              <img src="images/cat-snack.png" alt="部屋でねこにおやつをあげている様子のイラスト">
+              <figcaption>ごほうびタイム：おやつ</figcaption>
+            </figure>
+            <figure class="slide slide-3">
+              <img src="images/cat-play.png" alt="部屋でねことおもちゃで遊んでいる様子のイラスト">
+              <figcaption>全力タイム：ねこじゃらし</figcaption>
+            </figure>
+          </div>
+
+          <div class="slider-controls" aria-label="スライドを選択">
+            <label for="slide1"><span>1</span><b>ブラッシング</b></label>
+            <label for="slide2"><span>2</span><b>おやつ</b></label>
+            <label for="slide3"><span>3</span><b>ねこじゃらし</b></label>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Hayasaka Profile / 今日もねこはかわいい。</p>
+    <a href="#top">TOP ↑</a>
+  </footer>
+</body>
+</html>
